@@ -1,4 +1,7 @@
-﻿
+﻿// BREIF: 
+// Create a basic console app using if and else statements
+
+
 Console.Write("What is your first name: ");
 string? firstName = Console.ReadLine();
 
@@ -11,4 +14,4 @@ else
     Console.WriteLine($"Hello {firstName}");
 }
 
-Console.WriteLine("End of program");
+Console.WriteLine("End of program.");
