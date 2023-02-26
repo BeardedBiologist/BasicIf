@@ -5,7 +5,7 @@
 Console.Write("What is your first name: ");
 string? firstName = Console.ReadLine();
 
-if (firstName == "Josh")
+if (firstName.ToLower() == "josh")
 {
     Console.WriteLine("Hello Mr. O'Connor");
 }
